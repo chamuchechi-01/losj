@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Clicker Game</h1>
+        <div class="counter">
+            <p>Click count: <span id="count">0</span></p>
+        </div>
+        <button id="clickButton">Click me!</button>
+    </div>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
